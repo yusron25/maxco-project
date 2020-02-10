@@ -95,7 +95,7 @@
                     </div>
                     <div class="content">
                         <h4 class="title">PPJK</h4>
-                        <p><?=$this->lang->line('PPJKDesc') ?>/p>
+                        <p><?=$this->lang->line('PPJKDesc') ?></p>
                     </div>
                 </div>
             </div>

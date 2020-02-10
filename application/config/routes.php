@@ -6,6 +6,7 @@ $route['default_controller'] = 'home';
 
 $route['language/(:any)'] = 'Language/set/$1';
 $route['profile'] = 'Profile';
+$route['services'] = 'Services';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

@@ -53,7 +53,7 @@ background-color:#f9f9f9;z-index: 3;">
                 <li class="current-menu-item">
                     <a href="/"><?=$this->lang->line('home') ?></a>
                 </li>                
-                <li><a href="#pricing"><?=$this->lang->line('service') ?></a></li>
+                <li><a href="/services"><?=$this->lang->line('service') ?></a></li>
                 <li><a href="#about"><?=$this->lang->line('profile') ?></a></li>
                 <li><a href="#team"><?=$this->lang->line('project') ?></a></li>
                 <li><a href="#contact"><?=$this->lang->line('contact') ?></a></li>
