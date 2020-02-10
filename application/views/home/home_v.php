@@ -3,8 +3,8 @@
         <div class="row justify-content-between">
             <div class="col-lg-6">
                 <div class="header-inner" style="color: black">
-                    <h1 class="title wow fadeInDown" style="color: black">A better way to connect with your customers</h1>
-                    <p style="color: black">To increase sales by skyrocketing communication with All messages in one simple dashboard it now takes seconds.</p>
+                    <h1 class="title wow fadeInDown" style="color: white">A better way to connect with your customers</h1>
+                    <p style="color: white">To increase sales by skyrocketing communication with All messages in one simple dashboard it now takes seconds.</p>
                     <div class="btn-wrapper wow fadeInUp">
                         <a href="#" class="boxed-btn-02 reverse-color">Find Out More</a>
                         <!-- <a href="#" class="boxed-btn-02 blank"><i class="flaticon-android-logo"></i> Play Store</a> -->

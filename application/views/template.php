@@ -102,43 +102,43 @@ background-color:#f9f9f9;z-index: 3;">
 
 <!-- footer area start -->
 <footer class="footer-area style-02 bg-blue" style="
-    padding-top: 0px;">
+    padding-top: 0px; background-color: #d6d5d8;">
     <div class="footer-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget about_widget">
+                    <div class="footer-widget about_widget" style="color: black">
                         <a href="/" class="footer-logo"><img src="/assets/images/logo/maxco-logo.png" style="width: 80px" alt="Maxco Logo"></a>
-                        <p>Within coming figure sex things are. Pretended concluded did repulsive education smallness yet yet described. Had country man his pressed shewing. </p>
-                        <ul class="social-icon">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <p style="color: black">Within coming figure sex things are. Pretended concluded did repulsive education smallness yet yet described. Had country man his pressed shewing. </p>
+                        <ul class="social-icon" style="color:black">
+                            <li><a href="#" style="color:black"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" style="color:black"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" style="color:black"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" style="color:black"><i class="fab fa-pinterest-p"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title">Useful Links</h4>
+                        <h4 class="widget-title" style="color:black">Useful Links</h4>
                         <ul>
-                            <li><a href="/"><i class="fas fa-chevron-right"></i> Home</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Service</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                            <li><a href="/" style="color:black"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Service</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Contact</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title">Our Customer</h4>
+                        <h4 class="widget-title" style="color:black">Our Customer</h4>
                         <ul>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Faqs</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Policy</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Support</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> Temrs</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Faqs</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Privacy</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Policy</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Support</a></li>
+                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Temrs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ background-color:#f9f9f9;z-index: 3;">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-inner"><!-- copyright inner wrapper -->
-                        <div class="left-content-area"><!-- left content area -->
+                        <div class="left-content-area" style="color:black"><!-- left content area -->
                             &copy; Copyrights 2020 Maxco All rights reserved.
                         </div><!-- //. left content aera -->
                         <!-- <div class="right-content-area"> -->
