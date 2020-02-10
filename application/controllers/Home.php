@@ -7,11 +7,30 @@ class Home extends CI_Controller {
 
 		parent::__construct();
 
-		if( !$this->session->has_userdata('language') ){
-			$this->session->set_userdata('language','english');
+		if( !$this->session->userdata('language') ){
+			$this->session->set_userdata('language','indonesian');
 		}
 		
+		
+		if( isset($_GET['lang']) ){
+		    switch( $_GET['lang'] ){
+		        case 'english':
+		            $this->session->set_userdata('language',$_GET['lang']);
+		        break;
+		        
+		        case 'indonesian':
+		            $this->session->set_userdata('language',$_GET['lang']);
+		        break;
+		        
+		        default:
+		            $this->session->set_userdata('language','english');
+		        break;
+		  
+		    }
+		    
+		}
 		$this->lang->load('navbar',$this->session->userdata('language') );
+		
 	}
 
 	public function index()
@@ -20,3 +39,4 @@ class Home extends CI_Controller {
 		$this->load->view('template',$data);
 	}
 }
+?>

@@ -81,7 +81,7 @@
                          <img src="/assets/images/services/shipment.png" alt="">
                     </div>
                     <div class="content">
-                        <h4 class="title">Shipping</h4>
+                        <h4 class="title">International Forwarder</h4>
                         <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor </p>
                     </div>
                 </div>

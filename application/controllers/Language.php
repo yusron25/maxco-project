@@ -2,17 +2,17 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Language extends CI_Controller {
-
-	public function english()
-	{
-		$this->session->set_userdata("language","english");
-		redirect(base_url());
-	}
-
-	public function indonesian(){
-
-		$this->session->set_userdata("language","indonesian");
-		redirect(base_url());
+    
+    public function __construct(){
+        parent::__construct();
+    }
+    
+    public function set($lang)
+	{   
+	    $this->session->unset_userdata('language');
+	    $this->session->set_userdata('language',$lang);
+		redirect('/','refresh');
 	}
 
 }
+?>

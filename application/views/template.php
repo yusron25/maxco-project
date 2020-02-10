@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,13 +55,38 @@ background-color:#f9f9f9;z-index: 3;">
                 </li>
                 <li><a href="#about"><?=$this->lang->line('profile') ?></a></li>
                 <li><a href="#pricing"><?=$this->lang->line('service') ?></a></li>
-                <li><a href="#team"><?=$this->lang->line('schedule') ?></a></li>
+                <li><a href="#team"><?=$this->lang->line('project') ?></a></li>
                 <li><a href="#contact"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
-                    <a href="#"><?=$this->lang->line('language') ?></a>
+                    <a href="#">
+
+                        <?php
+                            switch ( $this->session->userdata('language') ) {
+                                case 'english':
+                                    ?>
+                                    <img src="/assets/icon/flag/260-united-kingdom.png" style="width: 50px" alt="Langage English">
+                                    <?php
+                                    break;
+
+                                case 'indonesian':
+                                     ?>
+                                    <img src="/assets/icon/flag/039-indonesia.png" style="width: 50px" alt="Langage Indonesian">
+                                    <?php
+                                    break;
+                                
+                                default:
+                                    ?>
+                                    <img src="/assets/icon/flag/260-united-kingdom.png" style="width: 50px" alt="Langage English">
+                                    <?php
+                                    break;
+                            }
+                        ?>
+                        <!-- <?//$this->lang->line('language') ?> -->
+                            
+                    </a>
                     <ul class="sub-menu">
-                        <li><a href="/language/english"><?=$this->lang->line('english') ?></a></li>
-                        <li><a href="/language/indonesian"><?=$this->lang->line('indonesian') ?></a></li>
+                        <li><a href="?lang=english"><?=$this->lang->line('english') ?></a></li>
+                        <li><a href="?lang=indonesian"><?=$this->lang->line('indonesian') ?></a></li>
                     </ul>
                 </li>
             </ul>
@@ -69,7 +94,10 @@ background-color:#f9f9f9;z-index: 3;">
         <div class="nav-right-content">
             <ul>
                 <li class="button-wrapper">
-                    <a href="#" class="boxed-btn">Webmail</a>
+                    <a href="#" class="boxed-btn">
+                        <i class="fa fa-envelope fa-lg"></i>
+                         <!-- <img src="/assets/icon/flag/260-united-kingdom.png" style="width: 50px" alt="Langage English"> -->
+                    </a>
                 </li>
             </ul>
         </div>
@@ -112,25 +140,13 @@ background-color:#f9f9f9;z-index: 3;">
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title">Need Help?</h4>
+                        <h4 class="widget-title">Our Customer</h4>
                         <ul>
                             <li><a href="#"><i class="fas fa-chevron-right"></i> Faqs</a></li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy</a></li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i> Policy</a></li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i> Support</a></li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i> Temrs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title">Download</h4>
-                        <ul>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> For IOS</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> For Android</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> For Mac</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> For Window</a></li>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i> For Linax</a></li>
                         </ul>
                     </div>
                 </div>
