@@ -79,7 +79,7 @@
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-shield-1"></i> -->
-                         <img src="/assets/images/services/emkl.png" alt="">
+                         <img src="/assets/images/services/boat.png" alt="">
                     </div>
                     <div class="content">
                         <h4 class="title">EMKL</h4>
