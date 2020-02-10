@@ -61,20 +61,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="single-discover-item">
-                    <div class="icon">
-                        <!-- <i class="flaticon-layers-2"></i> -->
-                        <img src="/assets/images/services/delivery-truck.png" alt="">
-                    </div>
-                    <div class="content">
-                        <h4 class="title">Trucking</h4>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
+        <div class="row justify-content-center">
+            
+            <div class="col-md-3">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-chat"></i> -->
@@ -82,31 +71,44 @@
                     </div>
                     <div class="content">
                         <h4 class="title">International Forwarder</h4>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor </p>
+                        <p><?=$this->lang->line('InternationalForwarderDesc') ?></p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-shield-1"></i> -->
-                         <img src="/assets/images/services/warehousing.png" alt="">
+                         <img src="/assets/images/services/emkl.png" alt="">
                     </div>
                     <div class="content">
-                        <h4 class="title">Warehousing</h4>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor </p>
+                        <h4 class="title">EMKL</h4>
+                        <p><?=$this->lang->line('EMKLDesc') ?></p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-cloud"></i> -->
-                         <img src="/assets/images/services/door-to-door.png" alt="">
+                         <img src="/assets/images/services/ppjk.png" alt="">
                     </div>
                     <div class="content">
-                        <h4 class="title">Door to Door Services</h4>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor </p>
+                        <h4 class="title">PPJK</h4>
+                        <p><?=$this->lang->line('PPJKDesc') ?>/p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="single-discover-item">
+                    <div class="icon">
+                        <!-- <i class="flaticon-layers-2"></i> -->
+                        <img src="/assets/images/services/delivery-truck.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Inland Transportations</h4>
+                        <p><?=$this->lang->line('InlandTransportationsDesc') ?></p>
                     </div>
                 </div>
             </div>

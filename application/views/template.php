@@ -52,9 +52,9 @@ background-color:#f9f9f9;z-index: 3;">
             <ul class="navbar-nav">
                 <li class="current-menu-item">
                     <a href="/"><?=$this->lang->line('home') ?></a>
-                </li>
-                <li><a href="#about"><?=$this->lang->line('profile') ?></a></li>
+                </li>                
                 <li><a href="#pricing"><?=$this->lang->line('service') ?></a></li>
+                <li><a href="#about"><?=$this->lang->line('profile') ?></a></li>
                 <li><a href="#team"><?=$this->lang->line('project') ?></a></li>
                 <li><a href="#contact"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
@@ -64,13 +64,13 @@ background-color:#f9f9f9;z-index: 3;">
                             switch ( $this->session->userdata('language') ) {
                                 case 'english':
                                     ?>
-                                    <img src="/assets/icon/flag/260-united-kingdom.png" style="width: 50px" alt="Langage English">
+                                    <img src="/assets/icon/flag/260-united-kingdom.png" style="width: 25px" alt="Langage English">
                                     <?php
                                     break;
 
                                 case 'indonesian':
                                      ?>
-                                    <img src="/assets/icon/flag/039-indonesia.png" style="width: 50px" alt="Langage Indonesian">
+                                    <img src="/assets/icon/flag/039-indonesia.png" style="width: 25px" alt="Langage Indonesian">
                                     <?php
                                     break;
                                 
@@ -89,16 +89,7 @@ background-color:#f9f9f9;z-index: 3;">
                         <li><a href="?lang=indonesian"><?=$this->lang->line('indonesian') ?></a></li>
                     </ul>
                 </li>
-            </ul>
-        </div>
-        <div class="nav-right-content">
-            <ul>
-                <li class="button-wrapper">
-                    <a href="#" class="boxed-btn">
-                        <i class="fa fa-envelope fa-lg"></i>
-                         <!-- <img src="/assets/icon/flag/260-united-kingdom.png" style="width: 50px" alt="Langage English"> -->
-                    </a>
-                </li>
+                 <li><a href="https://maxco.id/webmail"><i class="fa fa-envelope fa-lg"></i></a></li>
             </ul>
         </div>
     </div>
@@ -110,7 +101,8 @@ background-color:#f9f9f9;z-index: 3;">
 
 
 <!-- footer area start -->
-<footer class="footer-area style-02 bg-blue">
+<footer class="footer-area style-02 bg-blue" style="
+    padding-top: 0px;">
     <div class="footer-top">
         <div class="container">
             <div class="row">
