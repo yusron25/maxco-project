@@ -82,7 +82,7 @@
                          <img src="/assets/images/services/boat.png" alt="">
                     </div>
                     <div class="content">
-                        <h4 class="title">EMKL</h4>
+                        <h4 class="title">Shipping</h4>
                         <p><?=$this->lang->line('EMKLDesc') ?></p>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                         <img src="/assets/images/services/delivery-truck.png" alt="">
                     </div>
                     <div class="content">
-                        <h4 class="title">Inland Transportations</h4>
+                        <h4 class="title">Inland Transportation</h4>
                         <p><?=$this->lang->line('InlandTransportationsDesc') ?></p>
                     </div>
                 </div>
