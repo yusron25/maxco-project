@@ -54,9 +54,9 @@ background-color:#f9f9f9;z-index: 3;">
                     <a href="/"><?=$this->lang->line('home') ?></a>
                 </li>                
                 <li><a href="/services"><?=$this->lang->line('service') ?></a></li>
-                <li><a href="#about"><?=$this->lang->line('profile') ?></a></li>
-                <li><a href="#team"><?=$this->lang->line('project') ?></a></li>
-                <li><a href="#contact"><?=$this->lang->line('contact') ?></a></li>
+                <li><a href="#"><?=$this->lang->line('profile') ?></a></li>
+                <li><a href="#"><?=$this->lang->line('project') ?></a></li>
+                <li><a href="#"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
                     <a href="#">
 
@@ -102,43 +102,50 @@ background-color:#f9f9f9;z-index: 3;">
 
 <!-- footer area start -->
 <footer class="footer-area style-02 bg-blue" style="
-    padding-top: 0px; background-color: #d6d5d8;">
+    padding-top: 0px; /*background-color: #d6d5d8;*/">
     <div class="footer-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget about_widget" style="color: black">
                         <a href="/" class="footer-logo"><img src="/assets/images/logo/maxco-logo.png" style="width: 80px" alt="Maxco Logo"></a>
-                        <p style="color: black">Within coming figure sex things are. Pretended concluded did repulsive education smallness yet yet described. Had country man his pressed shewing. </p>
-                        <ul class="social-icon" style="color:black">
-                            <li><a href="#" style="color:black"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" style="color:black"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" style="color:black"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#" style="color:black"><i class="fab fa-pinterest-p"></i></a></li>
+                        <p style="/*color:black*/">Within coming figure sex things are. Pretended concluded did repulsive education smallness yet yet described. Had country man his pressed shewing. </p>
+                        <ul class="social-icon" style="/*color:black*/">
+                            <li><a href="#" style="/*color:black*/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fab fa-pinterest-p"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title" style="color:black">Useful Links</h4>
+                        <h4 class="widget-title" style="/*color:black*/">Useful Links</h4>
                         <ul>
-                            <li><a href="/" style="color:black"><i class="fas fa-chevron-right"></i> Home</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Service</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Blog</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                            <li><a href="/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Service</a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Contact</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title" style="color:black">Our Customer</h4>
+                        <h4 class="widget-title" style="/*color:black*/">Our Customer</h4>
                         <ul>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Faqs</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Privacy</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Policy</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Support</a></li>
-                            <li><a href="#" style="color:black"><i class="fas fa-chevron-right"></i> Temrs</a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas">
+                            </a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri">
+                            </a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/Larindo.png" alt="Larindo">
+                            </a></li>
+                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/Pertamina.png" alt="Pertamina">
+                            </a></li>
                         </ul>
                     </div>
                 </div>
@@ -150,7 +157,7 @@ background-color:#f9f9f9;z-index: 3;">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-inner"><!-- copyright inner wrapper -->
-                        <div class="left-content-area" style="color:black"><!-- left content area -->
+                        <div class="left-content-area" style="/*color:black*/"><!-- left content area -->
                             &copy; Copyrights 2020 Maxco All rights reserved.
                         </div><!-- //. left content aera -->
                         <!-- <div class="right-content-area"> -->
@@ -214,6 +221,21 @@ background-color:#f9f9f9;z-index: 3;">
     <script src="/assets/appside/assets/js/jquery.counterup.min.js"></script>
     <!-- main -->
     <script src="/assets/appside/assets/js/main.js"></script>
+    <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+62 811 112 424", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /WhatsHelp.io widget -->
 </body>
 
 </html>
