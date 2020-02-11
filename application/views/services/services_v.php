@@ -1,4 +1,4 @@
-<header class="header-area  style-10" id="home" style="background-image: url('/assets/images/truck/sunsettrip.jpg')">
+<!-- <header class="header-area  style-10" id="home" style="background-image: url('/assets/images/truck/sunsettrip.jpg')">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-6">
@@ -7,20 +7,53 @@
                     <p style="color: white">Provide the best experience for your shipping</p>
                     <div class="btn-wrapper wow fadeInUp">
                         <a href="#" class="boxed-btn-02 reverse-color">Find Out More</a>
-                        <!-- <a href="#" class="boxed-btn-02 blank"><i class="flaticon-android-logo"></i> Play Store</a> -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="right-img">
                     <div class="img-wrapper">
-                        <!-- <img src="/assets/images/truck/truck2.png" alt="Maxco Truck"> -->
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</header>
+</header> -->
+
+<div id="carouselExampleControls" class="carousel slide padtopslider" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/assets/images/truck/header1.jpg"  alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5 style="color: white">ONE STOP SHIPPING</h5> -->
+        <!-- <p style="color: white">Provide the best experience for your shipping</p> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+        <img class="d-block w-100" src="/assets/images/truck/header2.jpg"  alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+         <!-- <h5 style="color: white">ONE STOP SHIPPING</h5> -->
+        <!-- <p style="color: white">Provide the best experience for your shipping</p> -->
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img class="d-block w-100" src="/assets/images/truck/header3.jpg"  alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+         <!-- <h5 style="color: white">ONE STOP SHIPPING</h5> -->
+        <!-- <p style="color: white">Provide the best experience for your shipping</p> -->
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     <!-- header area end  -->
 <div class="sponsor-area gray-bg padding-60">
     <div class="container">

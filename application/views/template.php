@@ -54,7 +54,7 @@ background-color:#f9f9f9;z-index: 3;">
                     <a href="/"><?=$this->lang->line('home') ?></a>
                 </li>                
                 <li><a href="/services"><?=$this->lang->line('service') ?></a></li>
-                <li><a href="#"><?=$this->lang->line('profile') ?></a></li>
+                <li><a href="/profile"><?=$this->lang->line('profile') ?></a></li>
                 <li><a href="#"><?=$this->lang->line('project') ?></a></li>
                 <li><a href="#"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
@@ -108,7 +108,7 @@ background-color:#f9f9f9;z-index: 3;">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget about_widget" style="color: black">
-                        <a href="/" class="footer-logo"><img src="/assets/images/logo/maxco-logo.png" style="width: 80px" alt="Maxco Logo"></a>
+                        <a href="/" class="footer-logo"><img src="/assets/images/services/Maxco logo.png" style="width: 80px" alt="Maxco Logo"></a>
                         <p style="/*color:black*/">Within coming figure sex things are. Pretended concluded did repulsive education smallness yet yet described. Had country man his pressed shewing. </p>
                         <ul class="social-icon" style="/*color:black*/">
                             <li><a href="#" style="/*color:black*/"><i class="fab fa-facebook-f"></i></a></li>

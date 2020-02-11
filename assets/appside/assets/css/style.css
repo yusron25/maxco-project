@@ -2947,7 +2947,13 @@ ul {
 @media only screen and (max-width: 500px) {
   .single-testimonial-item .thumb {
     width: 100%;
-    height: 530px; } }
+    height: 530px; } 
+  
+  .padtopslider{
+    padding-top :130px;
+  }
+
+  }
 
 .single-testimonial-item-03 {
   position: relative;
