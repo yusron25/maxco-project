@@ -10,7 +10,7 @@ class Test extends CI_Controller {
 	public function ubahsession(){
 
 		$d = date('H-i-s');
-		
+		echo date('H-i-s')."<br>";
 		$this->session->set_userdata('ci__' ,$d);
 
 		$_SESSION['nativ'] = $d;
