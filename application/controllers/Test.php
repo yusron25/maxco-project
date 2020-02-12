@@ -9,16 +9,16 @@ class Test extends CI_Controller {
 
 	public function ubahsession(){
 
-		$d = date('H-i-s')
-		session_start();();
-		$_SESSION['nativ'] = $d;
-
+		$d = date('H-i-s');
+		
 		$this->session->set_userdata('ci__' ,$d);
+
+		$_SESSION['nativ'] = $d;
+		echo json_encode($_SESSION);
 		
 	}
 
 	public function vsess(){
-		session_start();
 		echo json_encode($_SESSION);
 	}
 
