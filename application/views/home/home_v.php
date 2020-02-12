@@ -23,7 +23,7 @@
     </div>
 </header> -->
 
-<div id="carouselExampleControls" class="carousel slide padtopslider" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide padtopslider" data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="/assets/images/truck/header1.jpg"  alt="First slide">
