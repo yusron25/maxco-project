@@ -55,7 +55,7 @@
   </a>
 </div>
     <!-- header area end  -->
-<div class="sponsor-area gray-bg padding-60">
+<!--<div class="sponsor-area gray-bg padding-60">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -83,14 +83,14 @@
         </div>
     </div>
 </div>
-
+-->
 <!-- discover area start  -->
 <section class="discover-area padding-top-110 padding-bottom-80" id="about">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title">
-                    <h2 class="title">That’s not all. Discover even more possibilities.</h2>
+                    <h2 class="title">What We Can Do</h2>
                 </div>
             </div>
         </div>

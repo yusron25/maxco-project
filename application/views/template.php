@@ -81,7 +81,6 @@ background-color:#f9f9f9;z-index: 3;">
                                     break;
                             }
                         ?>
-                        <!-- <?//$this->lang->line('language') ?> -->
                             
                     </a>
                     <ul class="sub-menu">
@@ -110,23 +109,22 @@ background-color:#f9f9f9;z-index: 3;">
                     <div class="footer-widget about_widget" style="color: black">
                         <a href="/" class="footer-logo"><img src="/assets/images/services/Maxco logo.png" style="width: 80px" alt="Maxco Logo"></a>
                         <p style="/*color:black*/">Jl. Marunda Makmur, Kawasan Industri dan Pergudangan Marunda Center Blok A5 No. 7-8, Segara Makmur, Kec. Tarumajaya, Bekasi - Jawa Barat 14150 </p>
-                        <ul class="social-icon" style="/*color:black*/">
-                            <li><a href="#" style="/*color:black*/"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fab fa-pinterest-p"></i></a></li>
+                        <ul class="social-icon" >
+                            <li><a href="#" ><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" ><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" ><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" ><i class="fab fa-pinterest-p"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title" style="/*color:black*/">Useful Links</h4>
+                        <h4 class="widget-title" >Useful Links</h4>
                         <ul>
-                            <li><a href="/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Home</a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Service</a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Blog</a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                            <li><a href="/" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
+                            <li><a href="/services/#about" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
+                            <li><a href="/profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
+                            <li><a href="#" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
                         </ul>
                     </div>
                 </div>
@@ -134,16 +132,16 @@ background-color:#f9f9f9;z-index: 3;">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" style="/*color:black*/">Our Customer</h4>
                         <ul>
-                            <li><a href="https://asiapulppaper.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
                                 <img style="height: 50px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas - Customer Maxco">
                             </a></li>
-                            <li><a href="http://www.chandra-asri.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                            <li><a href="http://www.chandra-asri.com/" ><i class="fas fa-chevron-right"></i> 
                                 <img style="height: 50px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri- Customer Maxco">
                             </a></li>
-                            <li><a href="http://www.lerindro.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/Larindo.png" alt="Lerindo- Customer Maxco">
+                            <li><a href="http://www.lerindro.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/Lerindo.png" alt="Lerindo- Customer Maxco">
                             </a></li>
-                            <li><a href="https://www.pertamina.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                            <li><a href="https://www.pertamina.com/" ><i class="fas fa-chevron-right"></i> 
                                 <img style="height: 50px" src="/assets/images/services/Pertamina.png" alt="Pertamina- Customer Maxco">
                             </a></li>
                         </ul>
