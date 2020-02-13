@@ -70,7 +70,7 @@
 
 </section>
 
-<section class="testimonial-area">
+<section class="">
     <div class="container">
                 <div class="row">
                     <div class="col-6">                    
@@ -108,5 +108,53 @@
                 </div>
             </div>
 </section>
+
+<section >
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="section-title">
+                    <h3 class="title extra">Nilai</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="feature-area">
+                    <ul class="feature-list wow fadeInUp">
+                        <li class="single-feature-list">
+                            <!-- <div class="icon icon-bg-1">
+                                <i class="flaticon-vector"></i>
+                            </div> -->
+                            <div class="content">
+                                <h4 class="title">B</h4>
+                                <p>BANGGA MENJADI BAGIAN DARI KARYAWAN MAXCO GROUP</p>
+                            </div>
+                        </li>
+                        <li class="single-feature-list">
+                            <div class="content">
+                                <h4 class="title"><a href="#">I</a></h4>
+                                <p>INTEGRITAS TINGGI DISETIAP PEKERJAAN</p>
+                            </div>
+                        </li>
+                        <li class="single-feature-list">
+                            <div class="content">
+                                <h4 class="title"><a href="#">S</a></h4>
+                                <p>SINERGI LOGISTIK DAN TRANSPORTASI YANG HANDAL</p>
+                            </div>
+                        </li>
+                        <li class="single-feature-list">
+                            <div class="content">
+                                <h4 class="title"><a href="#">A</a></h4>
+                                <p>AKTIF MEMBANTU KEBUTUHAN CUSTOMER</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
       

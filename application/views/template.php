@@ -39,7 +39,7 @@ background-color:#f9f9f9;z-index: 3;">
     <div class="container nav-container">
         <div class="responsive-mobile-menu">
             <div class="logo-wrapper">
-                <a href="/assets/appside/index.html" class="logo">
+                <a href="/" class="logo">
                     <img src="/assets/images/logo/maxco-logo.png" alt="Maxco Logo" style="width: 80px">
                 </a>
             </div>
@@ -53,9 +53,9 @@ background-color:#f9f9f9;z-index: 3;">
                 <li class="current-menu-item">
                     <a href="/"><?=$this->lang->line('home') ?></a>
                 </li>                
-                <li><a href="/services"><?=$this->lang->line('service') ?></a></li>
+                <li><a href="/services/#about"><?=$this->lang->line('service') ?></a></li>
                 <li><a href="/profile"><?=$this->lang->line('profile') ?></a></li>
-                <li><a href="#"><?=$this->lang->line('project') ?></a></li>
+                <!-- <li><a href="#"><?=$this->lang->line('project') ?></a></li> -->
                 <li><a href="#"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
                     <a href="#">
@@ -109,7 +109,7 @@ background-color:#f9f9f9;z-index: 3;">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget about_widget" style="color: black">
                         <a href="/" class="footer-logo"><img src="/assets/images/services/Maxco logo.png" style="width: 80px" alt="Maxco Logo"></a>
-                        <p style="/*color:black*/">Within coming figure sex things are. Pretended concluded did repulsive education smallness yet yet described. Had country man his pressed shewing. </p>
+                        <p style="/*color:black*/">Jl. Marunda Makmur, Kawasan Industri dan Pergudangan Marunda Center Blok A5 No. 7-8, Segara Makmur, Kec. Tarumajaya, Bekasi - Jawa Barat 14150 </p>
                         <ul class="social-icon" style="/*color:black*/">
                             <li><a href="#" style="/*color:black*/"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#" style="/*color:black*/"><i class="fab fa-twitter"></i></a></li>
@@ -134,17 +134,17 @@ background-color:#f9f9f9;z-index: 3;">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" style="/*color:black*/">Our Customer</h4>
                         <ul>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas">
+                            <li><a href="https://asiapulppaper.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas - Customer Maxco">
                             </a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri">
+                            <li><a href="http://www.chandra-asri.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri- Customer Maxco">
                             </a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/Larindo.png" alt="Larindo">
+                            <li><a href="http://www.lerindro.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/Larindo.png" alt="Lerindo- Customer Maxco">
                             </a></li>
-                            <li><a href="#" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/Pertamina.png" alt="Pertamina">
+                            <li><a href="https://www.pertamina.com/" style="/*color:black*/"><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 50px" src="/assets/images/services/Pertamina.png" alt="Pertamina- Customer Maxco">
                             </a></li>
                         </ul>
                     </div>
