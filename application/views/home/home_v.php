@@ -152,84 +152,7 @@
 </section>
 <!-- discover area start  -->
 
-
-
-
-<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="background-image: url('/assets/images/logo/maxco-opc.png');background-size:cover;">
-   
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="section-title">
-                        <h3 class="title extra">Overview</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- <div class="col-sm-5">
-                    
-                </div> -->
-                <div class="col-sm-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-4">
-                                   <?=$this->lang->line('profile_company')?>
-                                </div>
-                                <div class="col-8">
-                                    : PT. Maxco Tunggal Perkasa
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-4">
-                                    <?=$this->lang->line('profile_address')?>
-                                </div>
-                                <div class="col-8">
-                                    : JL.MARUNDAMAKMUR,KAWASAN INDUSTRI DAN PERGUDANGAN MARUNDA CENTER BLOK A5 NO. 7-8,SEGARAMAKMUR,KEC.TARUMAJAYA,BEKASI-JAWABARAT 14150.
-                                </div>
-                            </div>
-
-
-                            <div class="row">
-                                <div class="col-4">
-                                    <?=$this->lang->line('profile_bussiness')?>
-                                </div>
-                                <div class="col-8">
-                                    : EMKL-INTERNATIONALFORWARDER-PPJK-TRUCKING
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-4">
-                                    <?=$this->lang->line('profile_director')?>
-                                </div>
-                                <div class="col-8">
-                                    : RODERICK GONDOMULIA
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-4">
-                                    <?=$this->lang->line('profile_employee')?>
-                                </div>
-                                <div class="col-8">
-                                    : -
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>  
-    
-    
-</section>
-
-<hr>
-
-<section >
+<section class="discover-area padding-top-110 padding-bottom-80" id="profile">
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-12" style="text-align: center;">
@@ -255,86 +178,50 @@
             </div>
         </div>
     </div>
-</section>
-
-<hr>
-<section >
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="section-title">
-                    <h3 style="text-decoration: underline;"><?=$this->lang->line('profile_value')?></h3>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            
-            <div class="col-lg-3" my-2>
-                <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
-                        <h4 class="title">B</h4>
-                        <p>BANGGA MENJADI BAGIAN DARI KARYAWAN MAXCO GROUP</p>
-                    </div>
-                </div>
-            </div>
-             <div class="col-lg-3 my-2">
-                <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
-                        <h4 class="title">I</h4>
-                        <p>INTEGRITAS TINGGI DISETIAP PEKERJAAN</p>
-                    </div>
-                </div>
-            </div>
-             <div class="col-lg-3 my-2">
-                <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
-                        <h4 class="title">S</h4>
-                        <p>SINERGI LOGISTIK DAN TRANSPORTASI YANG HANDAL</p>
-                    </div>
-                </div>
-            </div>
-             <div class="col-lg-3 my-2">
-                <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
-                        <h4 class="title">A</h4>
-                        <p>AKTIF MEMBANTU KEBUTUHAN CUSTOMER</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div style="text-align: center">
+        <a href="/profile" class="btn btn-primary"><i>Read More... </i></a>
     </div>
 </section>
+
 
 <div class="contact-form-area-02 contact-bg padding-bottom-120 padding-top-120" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                    <div class="contact-area-wrapper" id="contact"><!-- contact area wrapper -->
-                        <span class="subtitle"><?=$this->lang->line('contact')?></span>
-                        <h3 class="title">Get In Touch</h3>
-                        <p><?=$this->lang->line('ContactDesc')?></p>
-                        <form action="#" id="contact_form_submit" class="contact-form sec-margin">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="uname" placeholder="<?=$this->lang->line('fieldName')?>">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="email" placeholder="<?=$this->lang->line('fieldEmail')?>">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group textarea">
-                                        <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="<?=$this->lang->line('fieldMessage')?>"></textarea>
-                                    </div>
-                                    <button class="submit-btn-02" type="submit"><?=$this->lang->line('fieldBtnSubmit')?></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div><!-- //. contact area wrapper -->
-                </div>
+                <div class="contact-area-wrapper" ><!-- contact area wrapper -->
+                    <span class="subtitle"><?=$this->lang->line('contact')?></span>
+                    <div class="row">
+                        <div class="col-4">
+                            <?=$this->lang->line('contact_phone')?>
+                        </div>
+                        <div class="col-8">
+                            : 021-8899829
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            E-mail
+                        </div>
+                        <div class="col-8">
+                            : info@maxco.id
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                           <?=$this->lang->line('profile_address')?>
+                        </div>
+                        <div class="col-8">
+                            : Jl. Marunda Makmur, Kawasan Industri dan Pergudangan Marunda Center Blok A5 No. 7-8, Segara Makmur, Kec. Tarumajaya, Bekasi - Jawa Barat 14150 
+                        </div>
+                    </div>
+                    
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <p><?=$this->lang->line('ContactDesc')?></p>
+                    <a href="/contact-us" class="btn btn-lg btn-primary"><i class="fa fa-envelope"></i> Get In Touch</a>
+                </div><!-- //. contact area wrapper -->
+            </div>
             <div class="col-lg-6">
                 <div class="img-wrapper">
                     <img src="assets/images/contact/contact-us.jpg" alt="">

@@ -7,9 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noarchive">
-    <meta name="description" content="The Best Trucking In The World">
+    <meta name="description" content="One Stop Shipping">
     <meta name="author" content="PT Maxco Indonesia">
-    <meta name="keywords" content="Maxco, Maxco Indonesia, integrated logistics services, comprising door to door distribution, warehousing, staffing stripping, trucking, custom clearance">
+    <meta name="keywords" content="Maxco, Maxco Indonesia, integrated logistics services, comprising door to door distribution, warehousing, staffing stripping, trucking, custom clearance, one stop shipping">
+
+    <!-- MS Tile - for Microsoft apps-->
+    <meta name="msapplication-TileImage" content="https://maxco.id/assets/images/logo/maxco-logo.png">    
+
+    <!-- fb & Whatsapp -->
+
+    <!-- Site Name, Title, and Description to be displayed -->
+    <meta property="og:site_name" content="Maxco Tunggal Perkasa">
+    <meta property="og:title" content="Maxco">
+    <meta property="og:description" content="One Stop Shipping">
+
+    <!-- Image to display -->
+    <!-- Replace   «example.com/image01.jpg» with your own -->
+    <meta property="og:image" content="https://maxco.id/assets/images/logo/maxco-logo.png">
+
+    <!-- No need to change anything here -->
+    <meta property="og:type" content="website">
+    <meta property="og:image:type" content="image/png">
+
+    <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+    <!-- Website to visit when clicked in fb or WhatsApp-->
+    <meta property="og:url" content="https://maxco.id">
+    
     <title> MAXCO </title>
     <!-- favicon -->
     <link rel="shortcut icon" href="/assets/images/logo/maxco-logo.ico" type="image/x-icon">
@@ -29,6 +55,10 @@
     <link rel="stylesheet" href="/assets/appside/assets/css/style.css">
     <!-- responsive -->
     <link rel="stylesheet" href="/assets/appside/assets/css/responsive.css">
+
+    
+    <!-- jquery -->
+    <script src="/assets/appside/assets/js/jquery.js"></script>
 </head>
 
 <body>
@@ -51,12 +81,12 @@ background-color:#f9f9f9;z-index: 3;">
         <div class="collapse navbar-collapse" id="appside_main_menu">
             <ul class="navbar-nav">
                 <li class="current-menu-item">
-                    <a href="#home"><?=$this->lang->line('home') ?></a>
+                    <a href="/#home"><?=$this->lang->line('home') ?></a>
                 </li>                
-                <li><a href="#services"><?=$this->lang->line('service') ?></a></li>
-                <li><a href="#profile"><?=$this->lang->line('profile') ?></a></li>
+                <li><a href="/#services"><?=$this->lang->line('service') ?></a></li>
+                <li><a href="/#profile"><?=$this->lang->line('profile') ?></a></li>
                 <!-- <li><a href="#"><?=$this->lang->line('project') ?></a></li> -->
-                <li><a href="#contact"><?=$this->lang->line('contact') ?></a></li>
+                <li><a href="/#contact"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
                     <a href="#">
 
@@ -121,10 +151,10 @@ background-color:#f9f9f9;z-index: 3;">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" >Useful Links</h4>
                         <ul>
-                            <li><a href="#home" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
-                            <li><a href="#services" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
-                            <li><a href="#profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
-                            <li><a href="#contact" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
+                            <li><a href="/" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
+                            <li><a href="/#services" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
+                            <li><a href="/#profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
+                            <li><a href="/#contact" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
                         </ul>
                     </div>
                 </div>
@@ -199,8 +229,6 @@ background-color:#f9f9f9;z-index: 3;">
   </div>
   <!-- back to top area end -->
 
-    <!-- jquery -->
-    <script src="/assets/appside/assets/js/jquery.js"></script>
     <!-- popper -->
     <script src="/assets/appside/assets/js/popper.min.js"></script>
     <!-- bootstrap -->

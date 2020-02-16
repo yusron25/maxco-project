@@ -9,3 +9,7 @@ $lang['fieldEmail'] = 'Your Email';
 $lang['fieldMessage'] = 'Messages';
 
 $lang['fieldBtnSubmit'] = 'Submit Now';
+
+$lang['contact_phone'] = 'Phone';
+
+$lang['contact_success'] = 'Well Done, Your Messages was successfully delivered! ';

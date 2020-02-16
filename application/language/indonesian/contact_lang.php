@@ -9,3 +9,7 @@ $lang['fieldEmail'] = 'Email Anda';
 $lang['fieldMessage'] = 'Pesan';
 
 $lang['fieldBtnSubmit'] = 'Kirim';
+
+$lang['contact_phone'] = 'Telepon';
+
+$lang['contact_success'] = 'Selamat, pesan Anda berhasil disampaikan! ';

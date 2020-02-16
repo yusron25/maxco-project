@@ -1,73 +1,75 @@
 
 
-
-<section style="margin-top: 140px">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="section-title">
-                    <h3 class="title extra">Overview</h3>
+<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="/*background-image: url('/assets/images/logo/maxco-opc.png');background-size:cover;*/">
+   
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title">
+                        <h3 class="title extra">Overview</h3>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <!-- <div class="col-sm-5">
-                
-            </div> -->
-            <div class="col-sm-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-4">
-                                Company Name
+            <div class="row">
+                <div class="col-sm-5">
+                    <img src="/assets/images/logo/maxco-logo.png" style="max-height: 256px" alt="Maxco">
+                </div> 
+                <div class="col-sm-7">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4">
+                                   <?=$this->lang->line('profile_company')?>
+                                </div>
+                                <div class="col-8">
+                                    : PT. Maxco Tunggal Perkasa
+                                </div>
                             </div>
-                            <div class="col-8">
-                                : PT. Maxco Tunggal Perkasa
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-4">
-                                Address
+                            <div class="row">
+                                <div class="col-4">
+                                    <?=$this->lang->line('profile_address')?>
+                                </div>
+                                <div class="col-8">
+                                    : JL.MARUNDAMAKMUR,KAWASAN INDUSTRI DAN PERGUDANGAN MARUNDA CENTER BLOK A5 NO. 7-8,SEGARAMAKMUR,KEC.TARUMAJAYA,BEKASI-JAWABARAT 14150.
+                                </div>
                             </div>
-                            <div class="col-8">
-                                : JL.MARUNDAMAKMUR,KAWASAN INDUSTRI DAN PERGUDANGAN MARUNDA CENTER BLOK A5 NO. 7-8,SEGARAMAKMUR,KEC.TARUMAJAYA,BEKASI-JAWABARAT 14150.
-                            </div>
-                        </div>
 
 
-                        <div class="row">
-                            <div class="col-4">
-                                Main Bussiness
+                            <div class="row">
+                                <div class="col-4">
+                                    <?=$this->lang->line('profile_bussiness')?>
+                                </div>
+                                <div class="col-8">
+                                    : EMKL-INTERNATIONALFORWARDER-PPJK-TRUCKING
+                                </div>
                             </div>
-                            <div class="col-8">
-                                : EMKL-INTERNATIONALFORWARDER-PPJK-TRUCKING
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-4">
-                                Director
+                            <div class="row">
+                                <div class="col-4">
+                                    <?=$this->lang->line('profile_director')?>
+                                </div>
+                                <div class="col-8">
+                                    : RODERICK GONDOMULIA
+                                </div>
                             </div>
-                            <div class="col-8">
-                                : RODERICK GONDOMULIA
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-4">
-                                Number Employee
-                            </div>
-                            <div class="col-8">
-                                : -
+                            <div class="row">
+                                <div class="col-4">
+                                    <?=$this->lang->line('profile_employee')?>
+                                </div>
+                                <div class="col-8">
+                                    : -
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
-                
             </div>
-        </div>
-    </div>
+        </div>  
+    
+    
 </section>
 
 <hr>
@@ -76,23 +78,23 @@
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-12" style="text-align: center;">
-                <h3 style="text-decoration: underline;">Visi & Misi</h3>
+                <h3 style="text-decoration: underline;"><?=$this->lang->line('profile_visinmisi')?></h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6" >                    
                 <div class="card" style="min-height: 300px">
                     <div class="card-body">
-                        <h5 style="text-align:center;">Visi</h5>
-                        <p>"Menjadi perusahaan logistik dan transportasi dengan berorientasi sistem supply chain terintegrasi sesuai kebutuhan anda."</p>
+                        <h5 style="text-align:center;"><?=$this->lang->line('profile_visititle')?></h5>
+                        <p><?=$this->lang->line('profile_visidesc')?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6" >  
                 <div class="card" style="min-height: 300px">
                     <div class="card-body">
-                        <h5 style="text-align:center;">Misi</h5>
-                         <p>"Memberikan kemudahan layanan freight forwading dan jasa pengiriman barang kepada customer. Memberikan nilai tambah untuk shareholder, karyawan dan lingkungan. Memberikan sistem supply chain terintegrasi yang efisien dan efektif."</p>
+                        <h5 style="text-align:center;"><?=$this->lang->line('profile_misititle')?></h5>
+                         <p><?=$this->lang->line('profile_misidesc')?></p>
                     </div>
                 </div>   
             </div>
@@ -106,52 +108,44 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="section-title">
-                    <h3 style="text-decoration: underline;">Nilai</h3>
+                    <h3 style="text-decoration: underline;"><?=$this->lang->line('profile_value')?></h3>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="feature-area">
-                    <ul class="feature-list wow fadeInUp">
-                        <li class="single-feature-list">
-                            <!-- <div class="icon icon-bg-1">
-                                <i class="flaticon-vector"></i>
-                            </div> -->
-                            <div class="content">
-                                <h4 class="title">B</h4>
-                                <p>BANGGA MENJADI BAGIAN DARI KARYAWAN MAXCO GROUP</p>
-                            </div>
-                        </li>
-                        <li class="single-feature-list">
-                            <div class="content">
-                                <h4 class="title"><a href="#">I</a></h4>
-                                <p>INTEGRITAS TINGGI DISETIAP PEKERJAAN</p>
-                            </div>
-                        </li>
-                        <li class="single-feature-list">
-                            <div class="content">
-                                <h4 class="title"><a href="#">S</a></h4>
-                                <p>SINERGI LOGISTIK DAN TRANSPORTASI YANG HANDAL</p>
-                            </div>
-                        </li>
-                        <li class="single-feature-list">
-                            <div class="content">
-                                <h4 class="title"><a href="#">A</a></h4>
-                                <p>AKTIF MEMBANTU KEBUTUHAN CUSTOMER</p>
-                            </div>
-                        </li>
-                    </ul>
+            
+            <div class="col-lg-3" my-2>
+                <div class="card">
+                    <div class="card-body " style="text-align: center; min-height: 200px">
+                        <h4 class="title">B</h4>
+                        <p>BANGGA MENJADI BAGIAN DARI KARYAWAN MAXCO GROUP</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 my-2">
+                <div class="card">
+                    <div class="card-body " style="text-align: center; min-height: 200px">
+                        <h4 class="title">I</h4>
+                        <p>INTEGRITAS TINGGI DISETIAP PEKERJAAN</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 my-2">
+                <div class="card">
+                    <div class="card-body " style="text-align: center; min-height: 200px">
+                        <h4 class="title">S</h4>
+                        <p>SINERGI LOGISTIK DAN TRANSPORTASI YANG HANDAL</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 my-2">
+                <div class="card">
+                    <div class="card-body " style="text-align: center; min-height: 200px">
+                        <h4 class="title">A</h4>
+                        <p>AKTIF MEMBANTU KEBUTUHAN CUSTOMER</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-      

@@ -7,6 +7,8 @@ $route['default_controller'] = 'home';
 $route['language/(:any)'] = 'Language/set/$1';
 $route['profile'] = 'Profile';
 $route['services'] = 'Services';
+$route['contact-us']['POST'] = 'Contact/request';
+$route['contact-us']['GET'] = 'Contact';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
