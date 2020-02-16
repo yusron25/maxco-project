@@ -29,7 +29,7 @@ class Home extends CI_Controller {
 		    }
 		    
 		}
-		$this->lang->load(array('navbar','services'),$this->session->userdata('language') );
+		$this->lang->load(array('navbar','services','contact','profile'),$this->session->userdata('language') );
 		
 	}
 

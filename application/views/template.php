@@ -51,12 +51,12 @@ background-color:#f9f9f9;z-index: 3;">
         <div class="collapse navbar-collapse" id="appside_main_menu">
             <ul class="navbar-nav">
                 <li class="current-menu-item">
-                    <a href="/"><?=$this->lang->line('home') ?></a>
+                    <a href="#home"><?=$this->lang->line('home') ?></a>
                 </li>                
-                <li><a href="/services/#about"><?=$this->lang->line('service') ?></a></li>
-                <li><a href="/profile"><?=$this->lang->line('profile') ?></a></li>
+                <li><a href="#services"><?=$this->lang->line('service') ?></a></li>
+                <li><a href="#profile"><?=$this->lang->line('profile') ?></a></li>
                 <!-- <li><a href="#"><?=$this->lang->line('project') ?></a></li> -->
-                <li><a href="#"><?=$this->lang->line('contact') ?></a></li>
+                <li><a href="#contact"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
                     <a href="#">
 
@@ -121,10 +121,10 @@ background-color:#f9f9f9;z-index: 3;">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" >Useful Links</h4>
                         <ul>
-                            <li><a href="/" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
-                            <li><a href="/services/#about" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
-                            <li><a href="/profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
-                            <li><a href="#" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
+                            <li><a href="#home" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
+                            <li><a href="#services" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
+                            <li><a href="#profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
+                            <li><a href="#contact" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
                         </ul>
                     </div>
                 </div>
@@ -133,16 +133,16 @@ background-color:#f9f9f9;z-index: 3;">
                         <h4 class="widget-title" style="/*color:black*/">Our Customer</h4>
                         <ul>
                             <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas - Customer Maxco">
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas - Customer Maxco">
                             </a></li>
                             <li><a href="http://www.chandra-asri.com/" ><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri- Customer Maxco">
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri- Customer Maxco">
                             </a></li>
                             <li><a href="http://www.lerindro.com/" ><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/Lerindo.png" alt="Lerindo- Customer Maxco">
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Larindo.png" alt="Lerindo- Customer Maxco">
                             </a></li>
                             <li><a href="https://www.pertamina.com/" ><i class="fas fa-chevron-right"></i> 
-                                <img style="height: 50px" src="/assets/images/services/Pertamina.png" alt="Pertamina- Customer Maxco">
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Pertamina.png" alt="Pertamina- Customer Maxco">
                             </a></li>
                         </ul>
                     </div>
