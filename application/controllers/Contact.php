@@ -91,11 +91,15 @@ class Contact extends CI_Controller {
 
 
 	private function sendbymail( $data ){
+		$config['mailtype'] 	= 'html';
 		$config['protocol'] = 'smtp';
 		$config['smtp_host'] = 'maxco.id';
 		$config['smtp_port'] = '587';		
 		$config['smtp_user'] = 'cs@maxco.id';		
-		$config['smtp_pass'] = 'csmaxco.2020';
+		$config['smtp_pass'] = 'csmaxco.2020';		
+        $config['crlf']			= "\r\n";
+        $config['charset'] 		= 'UTF-8';
+		$config['wordwrap'] 	= TRUE;
 
 		$this->email->initialize($config);
 
@@ -103,7 +107,38 @@ class Contact extends CI_Controller {
 		$this->email->to('cs@maxco.id' );
 
 		$this->email->subject('Visitor');
-		$this->email->message('Testing the email class.');
+		$this->email->message('<!DOCTYPE html>
+								<html lang="en">
+								<head>
+									<meta charset="UTF-8">
+									<title>Maxco</title>
+								</head>
+								<body>
+									<div>
+										<table>
+											<tbody>
+												<tr>
+													<td>Name</td>
+													<td>:</td>
+													<td>'.$data['name'].'</td>
+												</tr>
+												<tr>
+													<td>Email</td>
+													<td>:</td>
+													<td>'.$data['email'].'</td>
+												</tr>
+
+												<tr>
+													<td>Messages</td>
+													<td>:</td>
+													<td>'.$data['message'].'</td>
+												</tr>
+											</tbody>
+										</table>
+										
+									</div>
+								</body>
+								</html>');
 
 		return $this->email->send();
 	}
