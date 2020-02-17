@@ -1,6 +1,6 @@
 
 
-<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="/*background-image: url('/assets/images/logo/maxco-opc.png');background-size:cover;*/">
+<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="background-image: url('/assets/images/office.jpg');background-size:cover;">
    
         <div class="container">
             <div class="row justify-content-center">
@@ -72,6 +72,7 @@
     
 </section>
 
+
 <hr>
 
 <section >
@@ -116,7 +117,7 @@
             
             <div class="col-lg-3" my-2>
                 <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
+                    <div class="card-body " style="text-align: center; min-height: 240px">
                         <h4 class="title">B</h4>
                         <p>BANGGA MENJADI BAGIAN DARI KARYAWAN MAXCO GROUP</p>
                     </div>
@@ -124,7 +125,7 @@
             </div>
              <div class="col-lg-3 my-2">
                 <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
+                    <div class="card-body " style="text-align: center; min-height: 240px">
                         <h4 class="title">I</h4>
                         <p>INTEGRITAS TINGGI DISETIAP PEKERJAAN</p>
                     </div>
@@ -132,7 +133,7 @@
             </div>
              <div class="col-lg-3 my-2">
                 <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
+                    <div class="card-body " style="text-align: center; min-height: 240px">
                         <h4 class="title">S</h4>
                         <p>SINERGI LOGISTIK DAN TRANSPORTASI YANG HANDAL</p>
                     </div>
@@ -140,7 +141,7 @@
             </div>
              <div class="col-lg-3 my-2">
                 <div class="card">
-                    <div class="card-body " style="text-align: center; min-height: 200px">
+                    <div class="card-body " style="text-align: center; min-height: 240px">
                         <h4 class="title">A</h4>
                         <p>AKTIF MEMBANTU KEBUTUHAN CUSTOMER</p>
                     </div>

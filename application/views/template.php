@@ -228,7 +228,7 @@ background-color:#f9f9f9;z-index: 3;">
         <i class="fas fa-angle-up"></i>
   </div>
   <!-- back to top area end -->
-
+    
     <!-- popper -->
     <script src="/assets/appside/assets/js/popper.min.js"></script>
     <!-- bootstrap -->

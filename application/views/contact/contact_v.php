@@ -82,24 +82,34 @@
                         <div class="col-4">
                             <?=$this->lang->line('contact_phone')?>
                         </div>
-                        <div class="col-8">
-                            : 021-8899829
+
+                        <div class="col-1">
+                            :
+                        </div>
+                        <div class="col-7">
+                            021-8899829
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-4">
                             E-mail
                         </div>
-                        <div class="col-8">
-                            : info@maxco.id
+                        <div class="col-1">
+                            :
+                        </div>
+                        <div class="col-7">
+                            info@maxco.id
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-4">
                            <?=$this->lang->line('profile_address')?>
                         </div>
-                        <div class="col-8">
-                            : Jl. Marunda Makmur, Kawasan Industri dan Pergudangan Marunda Center Blok A5 No. 7-8, Segara Makmur, Kec. Tarumajaya, Bekasi - Jawa Barat 14150 
+                        <div class="col-1">
+                            :
+                        </div>
+                        <div class="col-7">
+                            Jl. Marunda Makmur, Kawasan Industri dan Pergudangan Marunda Center Blok A5 No. 7-8, Segara Makmur, Kec. Tarumajaya, Bekasi - Jawa Barat 14150 
                         </div>
                     </div>
                     
