@@ -109,7 +109,10 @@
                             :
                         </div>
                         <div class="col-7">
-                            Jl. Marunda Makmur, Kawasan Industri dan Pergudangan Marunda Center Blok A5 No. 7-8, Segara Makmur, Kec. Tarumajaya, Bekasi - Jawa Barat 14150 
+                            Jl. Marunda Makmur<br>
+                            Kawasan Industri dan Pergudangan Marunda Center<br>
+                            Blok A5 No. 7-8<br>
+                            Segara Makmur, Kec. Tarumajaya, Bekasi 14150 
                         </div>
                     </div>
                     

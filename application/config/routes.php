@@ -7,6 +7,7 @@ $route['default_controller'] = 'home';
 $route['language/(:any)'] = 'Language/set/$1';
 $route['profile'] = 'Profile';
 $route['services'] = 'Services';
+$route['gallery'] = 'Gallery';
 $route['contact-us']['POST'] = 'Contact/request';
 $route['contact-us']['GET'] = 'Contact';
 
