@@ -21,8 +21,11 @@
                                 <div class="col-4">
                                    <?=$this->lang->line('profile_company')?>
                                 </div>
-                                <div class="col-8">
-                                    : PT. Maxco Tunggal Perkasa
+                                <div class="col-1">
+                                    :
+                                </div>
+                                <div class="col-7">
+                                    PT. Maxco Tunggal Perkasa
                                 </div>
                             </div>
 
@@ -30,8 +33,14 @@
                                 <div class="col-4">
                                     <?=$this->lang->line('profile_address')?>
                                 </div>
-                                <div class="col-8">
-                                    : JL.MARUNDAMAKMUR,KAWASAN INDUSTRI DAN PERGUDANGAN MARUNDA CENTER BLOK A5 NO. 7-8,SEGARAMAKMUR,KEC.TARUMAJAYA,BEKASI-JAWABARAT 14150.
+                                <div class="col-1">
+                                    :
+                                </div>
+                                <div class="col-7">
+                                    Jl. Marunda Makmur<br>
+                                    Kawasan Industri dan Pergudangan Marunda Center<br>
+                                    Blok A5 No. 7-8<br>
+                                    Segara Makmur, Kec. Tarumajaya, Bekasi 14150 
                                 </div>
                             </div>
 
@@ -39,27 +48,36 @@
                             <div class="row">
                                 <div class="col-4">
                                     <?=$this->lang->line('profile_bussiness')?>
+                                </div>                                
+                                <div class="col-1">
+                                    :
                                 </div>
-                                <div class="col-8">
-                                    : EMKL-INTERNATIONALFORWARDER-PPJK-TRUCKING
+                                <div class="col-7">
+                                    EMKL-INTERNATIONALFORWARDER-PPJK-TRUCKING
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-4">
                                     <?=$this->lang->line('profile_director')?>
-                                </div>
-                                <div class="col-8">
-                                    : RODERICK GONDOMULIA
+                                </div>                                
+                                <div class="col-1">
+                                    :
+                                </div>                                
+                                <div class="col-7">
+                                    RODERICK GONDOMULIA
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-4">
                                     <?=$this->lang->line('profile_employee')?>
+                                </div>                                
+                                <div class="col-1">
+                                    :
                                 </div>
-                                <div class="col-8">
-                                    : -
+                                <div class="col-7">
+                                    -
                                 </div>
                             </div>
                         </div>
@@ -115,7 +133,7 @@
         </div>
         <div class="row">
             
-            <div class="col-lg-3" my-2>
+            <div class="col-lg-3  my-2">
                 <div class="card">
                     <div class="card-body " style="text-align: center; min-height: 240px">
                         <h4 class="title">B</h4>

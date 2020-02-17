@@ -85,7 +85,7 @@ background-color:#f9f9f9;z-index: 3;">
                 </li>                
                 <li><a href="/#services"><?=$this->lang->line('service') ?></a></li>
                 <li><a href="/#profile"><?=$this->lang->line('profile') ?></a></li>
-                <!-- <li><a href="#"><?=$this->lang->line('project') ?></a></li> -->
+                <li><a href="/#gallery"><?=$this->lang->line('gallery') ?></a></li>
                 <li><a href="/#contact"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
                     <a href="#">
@@ -138,7 +138,10 @@ background-color:#f9f9f9;z-index: 3;">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget about_widget" style="color: black">
                         <a href="/" class="footer-logo"><img src="/assets/images/services/Maxco logo.png" style="width: 80px" alt="Maxco Logo"></a>
-                        <p style="/*color:black*/">Jl. Marunda Makmur, Kawasan Industri dan Pergudangan Marunda Center Blok A5 No. 7-8, Segara Makmur, Kec. Tarumajaya, Bekasi - Jawa Barat 14150 </p>
+                        <p style="/*color:black*/">Jl. Marunda Makmur<br>
+Kawasan Industri dan Pergudangan Marunda Center<br>
+Blok A5 No. 7-8<br>
+Segara Makmur, Kec. Tarumajaya, Bekasi 14150 </p>
                         <ul class="social-icon" >
                             <li><a href="#" ><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#" ><i class="fab fa-twitter"></i></a></li>
@@ -154,6 +157,7 @@ background-color:#f9f9f9;z-index: 3;">
                             <li><a href="/" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
                             <li><a href="/#services" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
                             <li><a href="/#profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
+                            <li><a href="/#gallery" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('gallery') ?></a></li>
                             <li><a href="/#contact" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
                         </ul>
                     </div>
