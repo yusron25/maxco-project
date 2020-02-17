@@ -53,7 +53,7 @@
                                     :
                                 </div>
                                 <div class="col-7">
-                                    EMKL-INTERNATIONALFORWARDER-PPJK-TRUCKING
+                                    EMKL-INTERNATIONAL FORWARDER-PPJK-TRUCKING
                                 </div>
                             </div>
 
