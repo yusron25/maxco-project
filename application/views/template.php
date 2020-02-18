@@ -166,9 +166,23 @@ background-color:#f9f9f9;z-index: 3;">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" style="/*color:black*/">Our Customer</h4>
                         <ul>
-                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
-                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas - Customer Maxco">
+
+                            <li><a href="http://www.ikserang.com/iks/index.php" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/IKPP.png" alt="App Sinarmas - Customer Maxco">
                             </a></li>
+
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/lontar-papyrus.png" alt="App Sinarmas - Customer Maxco">
+                            </a></li>
+
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Pindo-deli.png" alt="App Sinarmas - Customer Maxco">
+                            </a></li>
+
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Oki.png" alt="App Sinarmas - Customer Maxco">
+                            </a></li>
+                            
                             <li><a href="http://www.chandra-asri.com/" ><i class="fas fa-chevron-right"></i> 
                                 <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri- Customer Maxco">
                             </a></li>
