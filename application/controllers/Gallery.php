@@ -35,8 +35,16 @@ class Gallery extends CI_Controller {
 
 	public function index()
 	{
-		$data['body'] = "gallery/gallery_v";
+		$data['gallery']= $this->gallery();
+		$data['body'] 	= "gallery/gallery_v";
 		$this->load->view('template',$data);
+	}
+
+	private function gallery(){
+
+		$path = glob("assets/images/gallery/*.*");
+		// echo json_encode($path);
+		return $path;
 	}
 }
 ?>
