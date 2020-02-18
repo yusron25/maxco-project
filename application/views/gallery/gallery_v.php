@@ -12,18 +12,18 @@
             </div>
             <div class="row">
                 
-                <?php foreach ( $gallery as $gal ): ?>
+                <?php for ($i=0;$i<10;$i++): ?>
                    <div class="col-sm-3 my-3">
                        <div class="card" >
-                            <img  src="/<?=$gal?>" class="card-img-top" alt="...">
-                            <!-- <div class="card-body">
-                                <p class="card-text"> - </p>
-                            </div> -->
+                            <img  src="/assets/images/logo/maxco-logo.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Image Description</p>
+                            </div>
                         </div> 
                     
                 </div>
  
-                <?php endforeach ?>
+                <?php endfor ?>
 
                 
             </div>
