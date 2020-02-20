@@ -135,7 +135,7 @@ background-color:#f9f9f9;z-index: 3;">
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-sm-2">
                     <div class="footer-widget about_widget" style="color: black">
                         <a href="/" class="footer-logo"><img src="/assets/images/services/Maxco logo.png" style="width: 80px" alt="Maxco Logo"></a>
                         <p style="/*color:black*/">Jl. Marunda Makmur<br>
@@ -150,7 +150,7 @@ background-color:#f9f9f9;z-index: 3;">
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-sm-2">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" >Useful Links</h4>
                         <ul>
@@ -162,14 +162,38 @@ background-color:#f9f9f9;z-index: 3;">
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-sm-3 ">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" style="/*color:black*/">Our Customer</h4>
                         <ul>
                            
-                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                           <!--  <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
                                 <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/app-sinarmas.png" alt="App Sinarmas - Customer Maxco">
+                            </a></li> -->
+
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/ikpp.png" alt="App Sinarmas - Customer Maxco">
                             </a></li>
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/lontar papyrus.png" alt="App Sinarmas - Customer Maxco">
+                            </a></li>
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/oki.png" alt="App Sinarmas - Customer Maxco">
+                            </a></li>
+                            <li><a href="https://asiapulppaper.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="height: 36.50px; max-width: 235px" src="/assets/images/services/Pindo-deli.png" alt="App Sinarmas - Customer Maxco">
+                            </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 ">
+                    <div class="footer-widget nav_menus_widget">
+                        <h4 class="widget-title" style="/*color:black*/"> &nbsp;</h4>
+                        <ul>
+                           
+                          
 
                             <li><a href="http://www.chandra-asri.com/" ><i class="fas fa-chevron-right"></i> 
                                 <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Chandra Asri.png" alt="Chandra Asri- Customer Maxco">
@@ -179,6 +203,33 @@ background-color:#f9f9f9;z-index: 3;">
                             </a></li>
                             <li><a href="https://www.pertamina.com/" ><i class="fas fa-chevron-right"></i> 
                                 <img style="max-height: 50px; max-width: 235px" src="/assets/images/services/Pertamina.png" alt="Pertamina- Customer Maxco">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-2 ">
+                    <div class="footer-widget nav_menus_widget">
+                        <h4 class="widget-title" style="/*color:black*/"> &nbsp;</h4>
+                        <ul>
+                                                       
+                            <li><a href="http://www.chandra-asri.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 142px" src="/assets/images/ourcustomer/PT Kenzie Abiah Wisesa.png" alt="Chandra Asri- Customer Maxco">
+                            </a></li>
+
+                            <li><a href="http://www.chandra-asri.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 142px" src="/assets/images/ourcustomer/PT Daya Cipta Internusa.png" alt="Chandra Asri- Customer Maxco">
+                            </a></li>
+
+
+                            <li><a href="http://www.chandra-asri.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 142px" src="/assets/images/ourcustomer/PT Indo Nan Pao.png" alt="Chandra Asri- Customer Maxco">
+                            </a></li>
+                            <li><a href="http://www.lerindro.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 142px" src="/assets/images/ourcustomer/PT Intercipta Kimia Pratama.png" alt="Lerindo- Customer Maxco">
+                            </a></li>
+                            <li><a href="https://www.pertamina.com/" ><i class="fas fa-chevron-right"></i> 
+                                <img style="max-height: 50px; max-width: 142px" src="/assets/images/ourcustomer/PT Indoboreq.png" alt="Pertamina- Customer Maxco">
                             </a></li>
                         </ul>
                     </div>
