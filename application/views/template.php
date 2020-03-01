@@ -243,7 +243,7 @@ background-color:#f9f9f9;z-index: 3;">
                 <div class="col-lg-12">
                     <div class="copyright-inner"><!-- copyright inner wrapper -->
                         <div class="left-content-area" style="/*color:black*/"><!-- left content area -->
-                            &copy; Copyrights 2020 Maxco All rights reserved.
+                            &copy; Copyrights 2020 PT Maxco Tunggal Perkasa.
                         </div><!-- //. left content aera -->
                         <!-- <div class="right-content-area"> -->
                             <!-- right content area -->
