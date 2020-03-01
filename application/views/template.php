@@ -17,10 +17,10 @@
     <!-- fb & Whatsapp -->
 
     <!-- Site Name, Title, and Description to be displayed -->
-    <meta property="og:site_name" content="Maxco Tunggal Perkasa">
-    <meta property="og:title" content="Maxco">
+    <meta property="og:site_name" content="PT Maxco Tunggal Perkasa">
+    <meta property="og:title" content="PT Maxco Tunggal Perkasa">
     <meta property="og:description" content="One Stop Shipping">
-
+    <meta property="og:keywords" content="Maxco, Maxco Indonesia, integrated logistics services, comprising door to door distribution, warehousing, staffing stripping, trucking, custom clearance, one stop shipping, pt maxco tunggal perkasa">
     <!-- Image to display -->
     <!-- Replace   «example.com/image01.jpg» with your own -->
     <meta property="og:image" content="https://maxco.id/assets/images/logo/maxco-logo.png">
