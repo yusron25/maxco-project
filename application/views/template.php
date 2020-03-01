@@ -118,7 +118,7 @@ background-color:#f9f9f9;z-index: 3;">
                         <li><a href="?lang=indonesian"><?=$this->lang->line('indonesian') ?></a></li>
                     </ul>
                 </li>
-                 <li><a href="https://maxco.id/webmail"><i class="fa fa-envelope fa-lg"></i></a></li>
+                 <li><a href="https://gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
             </ul>
         </div>
     </div>
