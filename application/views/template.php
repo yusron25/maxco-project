@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noarchive">
     <meta name="description" content="One Stop Shipping">
-    <meta name="author" content="PT Maxco Indonesia">
-    <meta name="keywords" content="Maxco, Maxco Indonesia, integrated logistics services, comprising door to door distribution, warehousing, staffing stripping, trucking, custom clearance, one stop shipping">
+    <meta name="author" content="PT Maxco Tunggal Perkasa">
+    <meta name="keywords" content="Maxco, Maxco Indonesia, integrated logistics services, comprising door to door distribution, warehousing, staffing stripping, trucking, custom clearance, one stop shipping, pt maxco tunggal perkasa">
 
     <!-- MS Tile - for Microsoft apps-->
     <meta name="msapplication-TileImage" content="https://maxco.id/assets/images/logo/maxco-logo.png">    
