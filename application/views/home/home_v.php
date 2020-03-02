@@ -1,16 +1,14 @@
 
 
 <div id="home" class="carousel slide padtopslider" data-ride="carousel" data-interval="5000"> 
+
+
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/assets/images/truck/header1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/images/truck/header2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/images/truck/header3.jpg" class="d-block w-100" alt="...">
-    </div>
+    <?php $c = 0; foreach ($slider as $slide ): ?>
+        <div class="carousel-item <?=($c==0)?'active':''?>">
+          <img src="/<?=$slide?>" class="d-block w-100" alt="Slider PT Maxco Tunggal Perkasa">
+        </div>
+    <?php $c++; endforeach ?>
   </div>
   <a class="carousel-control-prev" href="#home" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

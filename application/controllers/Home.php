@@ -35,8 +35,15 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
+		$data['slider'] = $this->slider();
 		$data['body'] = "home/home_v";
 		$this->load->view('template',$data);
+	}
+
+	private function slider(){
+		$path = glob("assets/images/slider/*.*");
+		// echo json_encode($path);
+		return $path;
 	}
 }
 ?>
