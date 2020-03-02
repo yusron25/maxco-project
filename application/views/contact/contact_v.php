@@ -98,7 +98,7 @@
                             :
                         </div>
                         <div class="col-7">
-                            info@maxco.id
+                            cs@maxco.id
                         </div>
                     </div>
                     <div class="row">

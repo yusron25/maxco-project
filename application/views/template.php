@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noarchive">
+    <meta name="robots" content="index,follow">
     <meta name="description" content="One Stop Shipping">
-    <meta name="author" content="PT Maxco Indonesia">
-    <meta name="keywords" content="Maxco, Maxco Indonesia, integrated logistics services, comprising door to door distribution, warehousing, staffing stripping, trucking, custom clearance, one stop shipping">
+    <meta name="author" content="PT Maxco Tunggal Perkasa">
+    <meta name="keywords" content="Maxco,Maxco Indonesia,integrated logistics services,comprising door to door distribution,warehousing,staffing stripping,trucking,custom clearance,one stop shipping,pt maxco tunggal perkasa">
 
     <!-- MS Tile - for Microsoft apps-->
     <meta name="msapplication-TileImage" content="https://maxco.id/assets/images/logo/maxco-logo.png">    
@@ -17,10 +17,10 @@
     <!-- fb & Whatsapp -->
 
     <!-- Site Name, Title, and Description to be displayed -->
-    <meta property="og:site_name" content="Maxco Tunggal Perkasa">
-    <meta property="og:title" content="Maxco">
+    <meta property="og:site_name" content="PT Maxco Tunggal Perkasa">
+    <meta property="og:title" content="PT Maxco Tunggal Perkasa">
     <meta property="og:description" content="One Stop Shipping">
-
+    <meta property="og:keywords" content="Maxco,Maxco Indonesia,integrated logistics services,comprising door to door distribution,warehousing,staffing stripping,trucking,custom clearance,one stop shipping,pt maxco tunggal perkasa">
     <!-- Image to display -->
     <!-- Replace   «example.com/image01.jpg» with your own -->
     <meta property="og:image" content="https://maxco.id/assets/images/logo/maxco-logo.png">
@@ -36,7 +36,7 @@
     <!-- Website to visit when clicked in fb or WhatsApp-->
     <meta property="og:url" content="https://maxco.id">
     
-    <title> MAXCO </title>
+    <title>PT Maxco Tunggal Perkasa</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="/assets/images/logo/maxco-logo.ico" type="image/x-icon">
     <!-- bootstrap -->
@@ -118,7 +118,7 @@ background-color:#f9f9f9;z-index: 3;">
                         <li><a href="?lang=indonesian"><?=$this->lang->line('indonesian') ?></a></li>
                     </ul>
                 </li>
-                 <li><a href="https://maxco.id/webmail"><i class="fa fa-envelope fa-lg"></i></a></li>
+                 <li><a href="https://gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
             </ul>
         </div>
     </div>
@@ -243,7 +243,7 @@ background-color:#f9f9f9;z-index: 3;">
                 <div class="col-lg-12">
                     <div class="copyright-inner"><!-- copyright inner wrapper -->
                         <div class="left-content-area" style="/*color:black*/"><!-- left content area -->
-                            &copy; Copyrights 2020 Maxco All rights reserved.
+                            &copy; Copyrights 2020 PT Maxco Tunggal Perkasa.
                         </div><!-- //. left content aera -->
                         <!-- <div class="right-content-area"> -->
                             <!-- right content area -->

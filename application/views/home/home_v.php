@@ -26,7 +26,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title">
-                    <h2 class="title">What We Can Do</h2>
+                    <h2 class="title">What We Do</h2>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
                          <img src="/assets/images/services/shipment.png" alt="">
                     </div>
                     <div class="content">
-                        <h4 class="title">International Forwarder</h4>
+                        <h4 class="title">International Freight Forwarder</h4>
                         <p><?=$this->lang->line('InternationalForwarderDesc') ?></p>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                             :
                         </div>
                         <div class="col-7">
-                            info@maxco.id
+                            cs@maxco.id
                         </div>
                     </div>
                     <div class="row">
