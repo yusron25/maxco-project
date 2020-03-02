@@ -141,7 +141,7 @@ background-color:#f9f9f9;z-index: 3;">
                         <p style="/*color:black*/">Jl. Marunda Makmur<br>
                         Kawasan Industri dan Pergudangan Marunda Center<br>
                         Blok A5 No. 7-8<br>
-                        Segara Makmur, Kec. Tarumajaya, Bekasi 14150 </p>
+                        Segara Makmur, Kec. Tarumajaya, Bekasi 17110 </p>
                         <ul class="social-icon" >
                             <li><a href="#" ><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#" ><i class="fab fa-twitter"></i></a></li>

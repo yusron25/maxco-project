@@ -158,7 +158,7 @@
                             Jl. Marunda Makmur<br>
                             Kawasan Industri dan Pergudangan Marunda Center<br>
                             Blok A5 No. 7-8<br>
-                            Segara Makmur, Kec. Tarumajaya, Bekasi 14150 
+                            Segara Makmur, Kec. Tarumajaya, Bekasi 17110 
                         </div>
                     </div>
                     

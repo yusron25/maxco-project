@@ -42,7 +42,9 @@ class Home extends CI_Controller {
 
 	private function slider(){
 		$path = glob("assets/images/slider/*.*");
+		sort($path);
 		// echo json_encode($path);
+		// exit;
 		return $path;
 	}
 }
